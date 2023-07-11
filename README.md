@@ -1,12 +1,12 @@
-# protopackage
+# momic
 
-An empty R package build as a prototype. It illustrates development practices in R: documentation, literate programming, testing, versioning, continuous integration.
+An R package allowing to visualize multi omic data at the gene level.
 
   
 **Install**
   
 ```
-devtools::install_github("fchuffar/protopackage")
+devtools::install_github("fchuffar/momic")
 ```
   
   
@@ -15,8 +15,8 @@ devtools::install_github("fchuffar/protopackage")
 On a terminal:
 
 ```
-git clone git@github.com:fchuffar/protopackage.git
-cd protopackage
+git clone git@github.com:fchuffar/momic.git
+cd momic
 ```
 
 Under R:
@@ -35,5 +35,5 @@ devtools::build()
 Under R, in the vignette directory:
     
 ```
-rmarkdown::render("make_a_coffee.Rmd")
+rmarkdown::render("01_momic_meth_vs_trscr.Rmd")
 ```
